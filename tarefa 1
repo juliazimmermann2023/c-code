@@ -1,0 +1,22 @@
+
+using namespace std;
+
+int main()
+{
+    int a;
+    int b;
+    int soma;
+    cout << "Fale um numero";
+    cin >> a;
+    cout << "Fale  mais um número";
+    cin >> b;
+    if (a>b){
+        soma= a + b;
+        cout << "resultado:" << soma;
+
+    }
+    else {
+
+    }
+    return 0;
+}
